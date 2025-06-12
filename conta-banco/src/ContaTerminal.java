@@ -18,7 +18,7 @@ public class ContaTerminal {
        
         java.util.Scanner scanner = new java.util.Scanner(System.in);
 
-        System.out.println("Bem-vindo ao Banco Java!");
+        System.out.println("Bem-vindo ao Banco Gledson Bank!");
         System.out.print("Digite o número da conta: ");
         numero = scanner.nextInt();
         scanner.nextLine(); 
@@ -32,7 +32,8 @@ public class ContaTerminal {
         System.out.print("Digite o saldo inicial: ");
         saldo = scanner.nextBigDecimal();
 
-        System.out.println("Conta criada com sucesso!");
+        System.out.println("Conta criada com sucesso! Seja Bem-vindo(a) " + nomeCliente + "!");
+        System.out.println("Detalhes da conta:");
         System.out.println("Número da conta: " + numero);
         System.out.println("Agência: " + agencia);
         System.out.println("Nome do cliente: " + nomeCliente);
